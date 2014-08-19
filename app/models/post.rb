@@ -21,4 +21,5 @@ class Post < ActiveRecord::Base
       self.tags << Tag.find_or_create_by(text: tag)
     end
   end
+
 end
